@@ -1,0 +1,62 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-height: calc(50vh - 40px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.page-title {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.loading-message {
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ticket-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticket-details strong {
+    color: #333;
+    margin-right: 5px;
+}
+
+.no-ticket {
+    font-size: 1.2rem;
+    color: #e74c3c;
+    margin-top: 20px;
+}

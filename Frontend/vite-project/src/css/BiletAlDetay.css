@@ -1,0 +1,99 @@
+.detay-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.detay-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.error-message {
+    color: red;
+    font-size: 1.2rem;
+}
+
+.flights-list {
+    display: block;
+    margin-top: 20px;
+}
+
+.flight-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+ 
+}
+
+.flight-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.flight-id {
+    color: #3498db;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.flight-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.flight-card p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.flight-card p strong {
+    margin-right: 5px;
+}
+
+.flight-card p svg {
+    margin-right: 5px;
+    font-size: 1.2rem;
+}
+
+.flight-dates {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.btn-details {
+    background-color: #001f54;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-details:hover {
+    background-color: #27ae60;
+}
+
+.no-flights {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #e74c3c;
+}
