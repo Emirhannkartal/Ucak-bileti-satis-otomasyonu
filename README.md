@@ -54,24 +54,29 @@ Kurulum için Maven Bağımlılığı:
 
 FrontEnd
 React: Bileşen tabanlı bir yapı sunarak kullanıcı arayüzlerini (UI) oluşturmak için kullanılır. Sanal DOM sayesinde yüksek performans sağlar.
+
 Vite: Hızlı geliştirme ve yapılandırma için kullanılan bir build aracı. Hızlı Hot Module Replacement (HMR) desteği sunar.
-(Kurulum:
-npm install vite --save-dev
-ite ile geliştirme yapmak için komutlar şudur:
-npm run dev  (Geliştirme sunucusunu başlatır)
-npm run build  ( Projeyi derler))
+
 
 Axios: API ile veri alışverişini kolaylaştıran bir HTTP istemcisi. (kurulum : npm install axios)
+
 Material UI (MUI): React için modern ve estetik UI bileşenleri sunan bir kütüphane. Google'ın Material Design prensiplerine dayanır.
 (Kurulumu :npm install @mui/material @emotion/react @emotion/styled)
+
 React Router DOM: React uygulamalarında sayfalar arası yönlendirme ve URL bazlı gezinme sağlar. (kurulum: npm install react-router-dom)
+
 React Icons: Popüler ikon setlerini kolayca entegre etme imkanı sunar. (kurulumu:npm install react-icons)
+
 ESLint: JavaScript kodunun standartlara uygun, hatasız ve temiz olmasını sağlayan bir analiz aracı.
 
 DataBase
 PostgreSql 
+
+
 Test
 Api testleri postman üzerinden yapılmıştır.
+
+
 ![Ekran görüntüsü 2024-12-21 181446](https://github.com/user-attachments/assets/6974944f-fe00-4d4b-aa8e-c25e54771065)
 ![Ekran görüntüsü 2024-12-21 182425](https://github.com/user-attachments/assets/615ee0ed-2b02-4062-aed7-aae46e9203d3)
 ![Ekran görüntüsü 2024-12-21 182412](https://github.com/user-attachments/assets/dc25ddb9-b965-4d1b-b544-5ad01f24e3f9)
